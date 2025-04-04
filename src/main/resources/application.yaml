@@ -1,0 +1,10 @@
+spring:
+  application:
+    name=wishList:
+      datasource:
+        url=jdbc:postgresql://localhost:5432/wishlist
+        username=root
+        password=123
+        driver-class-name=org.postgresql.Driver
+        jpa.database=postgresql
+        jpa.database-platform=org.hibernate.dialect.PostgreSQL10Dialect
